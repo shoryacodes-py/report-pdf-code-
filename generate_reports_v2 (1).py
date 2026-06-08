@@ -11,7 +11,7 @@ from reportlab.platypus import (
 from reportlab.lib.enums import TA_CENTER, TA_LEFT, TA_RIGHT
 import datetime
 
-MONGO_URI = "mongodb://superAdmin:5umm3r20i8@15.204.59.62:27017/?authSource=admin"
+MONGO_URI = "enter db url"
 DB_NAME   = "new-highscores-2"
 
 client = MongoClient(MONGO_URI, serverSelectionTimeoutMS=8000)
